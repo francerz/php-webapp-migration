@@ -1,0 +1,15 @@
+{
+    "name": "francerz/webapp-migration",
+    "type": "library",
+    "require": {
+        "francerz/http": "^0.3.14",
+        "psr/http-message": "^1.0",
+        "fig/http-message-util": "^1.1"
+    },
+    "license": "ISC",
+    "autoload": {
+        "psr-4": {
+            "Francerz\\WebappMigration\\": "src/"
+        }
+    }
+}
